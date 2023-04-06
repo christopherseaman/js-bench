@@ -1,0 +1,15 @@
+Spaceforce
+Dropbox/Downloads/bench via  v18.15.0 took 1m26s 
+❯ node benchmark.js 
+RegExp#test x 39,529,248 ops/sec ±1.51% (87 runs sampled)
+String#indexOf x 848,718,766 ops/sec ±1.73% (84 runs sampled)
+String#match x 20,340,519 ops/sec ±1.59% (86 runs sampled)
+Fastest is String#indexOf
+
+
+MacOS Catalina
+gamepost@SFGameMini bench % node benchmark.js
+RegExp#test x 11,154,197 ops/sec ±1.49% (87 runs sampled)
+String#indexOf x 670,820,746 ops/sec ±1.96% (79 runs sampled)
+String#match x 8,230,591 ops/sec ±1.04% (84 runs sampled)
+Fastest is String#indexOf
